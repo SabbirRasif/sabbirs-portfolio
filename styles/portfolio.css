@@ -209,3 +209,14 @@ footer input[type='text'], footer input[type='enail'], footer textarea{
 .btn:hover{
     background-color: #f32727;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
